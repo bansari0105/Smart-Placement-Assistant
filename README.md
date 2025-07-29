@@ -24,4 +24,17 @@ An AI + IoT-based mobile application designed to support university students in 
   <li><strong>Machine Learning:</strong> Skill–job matching, trend analysis, and company shortlisting logic</li>
   <li><strong>Web Scraping:</strong> Automatic extraction of company recruitment info from official sites</li>
 </ul>
+<h3>Who is it for?</h3>
+<p>
+  This platform is designed for <strong>university students and placement cells</strong> to help them stay prepared and informed throughout the placement season. It is flexible enough to support diverse academic streams and offers tailored advice based on real-time data.
+</p>
+
+<h3>Future Scope:</h3>
+<ul>
+  <li>Integrate <strong>resume scoring</strong> using AI-based feedback models</li>
+  <li>Connect to external job boards like LinkedIn or Indeed using smart scraping + ML filtering</li>
+  <li>Support offline caching and progressive web app (PWA) version</li>
+  <li>Build a web-based <strong>TPO dashboard</strong> for event and data management</li>
+</ul>
+
 
