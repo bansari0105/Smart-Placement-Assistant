@@ -15,3 +15,13 @@ An AI + IoT-based mobile application designed to support university students in 
   <li>Connect to an <strong>IoT-based digital display (ESP32)</strong> for real-time placement alerts in physical campus areas.</li>
 </ul>
 
+<h3>Core Technologies:</h3>
+<ul>
+  <li><strong>Flutter:</strong> Cross-platform mobile app framework</li>
+  <li><strong>Firebase:</strong> Backend services including Firestore, Auth, Cloud Functions, and Notifications</li>
+  <li><strong>ESP32:</strong> Microcontroller unit (MCU) connected to Firebase Realtime DB for smart IoT display</li>
+  <li><strong>Python + Flask:</strong> Backend services for AI/NLP resume analysis and smart recommendations</li>
+  <li><strong>Machine Learning:</strong> Skill–job matching, trend analysis, and company shortlisting logic</li>
+  <li><strong>Web Scraping:</strong> Automatic extraction of company recruitment info from official sites</li>
+</ul>
+
