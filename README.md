@@ -37,4 +37,16 @@ An AI + IoT-based mobile application designed to support university students in 
   <li>Build a web-based <strong>TPO dashboard</strong> for event and data management</li>
 </ul>
 
+<h2> Features</h2>
+<ul>
+  <li><strong>AI-Powered Career Suggestions:</strong> Uses NLP and ML to analyze student profiles and recommend suitable job roles or companies.</li>
+  <li><strong>Company Information Dashboard:</strong> Scrapes official company websites to present relevant info like eligibility, roles offered, CTC, and deadlines.</li>
+  <li><strong>Smart Calendar Integration:</strong> Automatically adds placement events, deadlines, and reminders to a unified calendar.</li>
+  <li><strong>Resume Upload & Preview:</strong> Upload resume in PDF format and preview it within the app.</li>
+  <li><strong>IoT-Based Live Placement Display:</strong> Real-time scrolling data using ESP32 + OLED for placement announcements and metrics.</li>
+  <li><strong>Student Discussion Forum:</strong> Peer-to-peer discussion chat system for interview tips, resources, and doubts.</li>
+  <li><strong>Firebase-Backed Authentication:</strong> Secure sign-up and login using Firebase Auth.</li>
+  <li><strong>Push Notifications:</strong> For interview schedules, reminders, announcements, and company updates.</li>
+</ul>
+
 
