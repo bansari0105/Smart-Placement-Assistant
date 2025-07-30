@@ -49,4 +49,26 @@ An AI + IoT-based mobile application designed to support university students in 
   <li><strong>Push Notifications:</strong> For interview schedules, reminders, announcements, and company updates.</li>
 </ul>
 
+<h2>Installation Instructions</h2>
+<ol>
+  <li><strong>Clone the Repository:</strong><br>
+    <code>git clone https://github.com/yourusername/smart_placement_assistant.git</code>
+  </li>
+  <li><strong>Navigate to the Project Directory:</strong><br>
+    <code>cd smart_placement_assistant</code>
+  </li>
+  <li><strong>Install Dependencies:</strong><br>
+    <code>flutter pub get</code>
+  </li>
+  <li><strong>Configure Firebase:</strong><br>
+    - Add your <code>google-services.json</code> file to <code>android/app/</code><br>
+    - Ensure Firebase project is correctly connected to your app (Firebase Console → Project Settings)
+  </li>
+  <li><strong>Run the App:</strong><br>
+    <code>flutter run</code><br>
+    Or connect your Android device/emulator before running.
+  </li>
+</ol>
+
+
 
