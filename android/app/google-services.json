@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "905464757558",
+    "project_id": "smart-placement-assistan-a54bd",
+    "storage_bucket": "smart-placement-assistan-a54bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905464757558:android:65d600d58da8902c6a8797",
+        "android_client_info": {
+          "package_name": "com.example.smart_placement_assistant_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905464757558-v4n7ghgr3c0mbfmp0ulfqbpbbv0omgv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smart_placement_assistant_new",
+            "certificate_hash": "031ebf675f63b166832ef8f04f1ab380f068af4d"
+          }
+        },
+        {
+          "client_id": "905464757558-odhl765e8v45v4gpca6mgjdgh94spc21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlu781cFzeTaEdd7iT1MaUs4KLA0_OoQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905464757558-odhl765e8v45v4gpca6mgjdgh94spc21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
