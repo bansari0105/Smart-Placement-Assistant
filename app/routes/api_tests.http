@@ -1,0 +1,102 @@
+### Home
+GET http://127.0.0.1:5000/
+
+### Companies - GET
+GET http://127.0.0.1:5000/companies/
+
+### Companies - POST (create)
+POST http://127.0.0.1:5000/companies/
+Content-Type: application/json
+
+{
+  "name": "Google",
+  "location": "Mountain View",
+  "description": "Search + Cloud"
+}
+
+### (OPTIONAL) Sign up a test user in Firebase
+# Replace ↓↓↓ with your actual Firebase Web API Key
+POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBaC-6ec5WCKTFeqQn0bOL1wILtY1hm-ZY
+Content-Type: application/json
+
+{
+  "email": "justfun@gmail.com",   # replace with your email
+  "password": "bansari",      # replace with your password
+  "returnSecureToken": true
+}
+
+### Sign in to get ID token
+# Replace ↓↓↓ with your actual Firebase Web API Key
+POST https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBaC-6ec5WCKTFeqQn0bOL1wILtY1hm-ZY
+Content-Type: application/json
+
+{
+  "email": "justfun@gmail.com",   # replace with your email
+  "password": "bansari",      # replace with your password
+  "returnSecureToken": true
+}
+
+### Set a variable with the idToken from sign-in response
+# Copy "idToken" from above response and paste below
+@token = "PASTE_ID_TOKEN_HERE"
+
+### Profile - SETUP (POST)
+POST http://127.0.0.1:5000/profile/setup
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "John Doe",
+  "department": "CS",
+  "graduation_year": 2025,
+  "skills": ["Python", "ML"]
+}
+
+### Profile - GET
+GET http://127.0.0.1:5000/profile/get
+Authorization: Bearer {{token}}
+
+### Users - GET
+GET http://127.0.0.1:5000/users/
+
+### Applications - GET
+GET http://127.0.0.1:5000/applications/
+
+### Companies - List
+GET http://127.0.0.1:5000/companies/
+
+### Companies - Create
+POST http://127.0.0.1:5000/companies/
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Google",
+  "location": "Mountain View",
+  "description": "Search + Cloud"
+}
+
+### Companies - Get One
+GET http://127.0.0.1:5000/companies/{{company_id}}
+
+### Companies - Update
+PUT http://127.0.0.1:5000/companies/{{company_id}}
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "location": "California HQ"
+}
+
+### Companies - Delete
+DELETE http://127.0.0.1:5000/companies/{{company_id}}
+Authorization: Bearer {{token}}
+
+
+
+
+
+
+
+
+
