@@ -12,14 +12,12 @@ An AI mobile application designed to support university students in their placem
   <li>Send intelligent reminders and alerts using Firebase and AI scheduling models.</li>
   <li>Enhance peer communication through in-app discussion and smart chatbot features.</li>
   <li>Use <strong>NLP algorithms</strong> to parse and understand resume content for profile suggestions.</li>
-  <li>Connect to an <strong>IoT-based digital display (ESP32)</strong> for real-time placement alerts in physical campus areas.</li>
 </ul>
 
 <h3>Core Technologies:</h3>
 <ul>
   <li><strong>Flutter:</strong> Cross-platform mobile app framework</li>
   <li><strong>Firebase:</strong> Backend services including Firestore, Auth, Cloud Functions, and Notifications</li>
-  <li><strong>ESP32:</strong> Microcontroller unit (MCU) connected to Firebase Realtime DB for smart IoT display</li>
   <li><strong>Python + Flask:</strong> Backend services for AI/NLP resume analysis and smart recommendations</li>
   <li><strong>Machine Learning:</strong> Skill–job matching, trend analysis, and company shortlisting logic</li>
   <li><strong>Web Scraping:</strong> Automatic extraction of company recruitment info from official sites</li>
@@ -43,7 +41,6 @@ An AI mobile application designed to support university students in their placem
   <li><strong>Company Information Dashboard:</strong> Scrapes official company websites to present relevant info like eligibility, roles offered, CTC, and deadlines.</li>
   <li><strong>Smart Calendar Integration:</strong> Automatically adds placement events, deadlines, and reminders to a unified calendar.</li>
   <li><strong>Resume Upload & Preview:</strong> Upload resume in PDF format and preview it within the app.</li>
-  <li><strong>IoT-Based Live Placement Display:</strong> Real-time scrolling data using ESP32 + OLED for placement announcements and metrics.</li>
   <li><strong>Student Discussion Forum:</strong> Peer-to-peer discussion chat system for interview tips, resources, and doubts.</li>
   <li><strong>Firebase-Backed Authentication:</strong> Secure sign-up and login using Firebase Auth.</li>
   <li><strong>Push Notifications:</strong> For interview schedules, reminders, announcements, and company updates.</li>
