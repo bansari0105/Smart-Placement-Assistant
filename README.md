@@ -1,5 +1,5 @@
 # Smart-Placement-Assistant
-An AI + IoT-based mobile application designed to support university students in their placement journey. It offers personalized job suggestions, real-time notifications, resume sharing, company insights, and a chatbot for peer interaction. The IoT module displays upcoming drives and countdowns using a smart LED board, all connected via Firebase.
+An AI mobile application designed to support university students in their placement journey. It offers personalized job suggestions, real-time notifications, resume sharing, company insights, and a chatbot for peer interaction. 
 
 <p>
   <strong>Smart Placement Assistant</strong> is a cross-platform Flutter-based mobile application integrated with Firebase and IoT (ESP32) to guide and assist university students in their placement journey. It serves as a career-focused companion that utilizes <strong>Artificial Intelligence (AI)</strong>, <strong>Machine Learning (ML)</strong>, <strong>Natural Language Processing (NLP)</strong>, and embedded systems to deliver a personalized and intelligent experience.
